@@ -4,12 +4,45 @@ import time
 
 import colors as c
 
-hundredths = 1
-
-
+seconds = 0
+hundredths = 0
+minutes = 0
+hours = 0
+days = 0
+weeks = 
 while True:
-      time.sleep(1)
-      print(c.clear)
-      print(c.cyan + '[ctrl + c to stop]' + c.reset, end=': ')
-      print(hundredths)
-      hundredths +=1
+
+    print(c.clear)
+    print(c.magenta + 'weeks: ' + c.reset)
+    print(weeks)
+    print(c.magenta + 'days: ' + c.reset)
+    print(days)
+    print(c.magenta + 'hours: ' + c.reset)
+    print(hours)
+    print(c.magenta + 'minutes: ' + c.reset)
+    print(minutes)
+    print(c.magenta + 'seconds: ' + c.reset)
+    print(seconds)
+    print(c.magenta + 'hundredths: ' + c.reset)
+    print(hundredths)
+    time.sleep(0.01)
+    hundredths +=1
+    if hundredths == 100:
+        seconds += 1
+        hundredths = 0
+    if seconds == 60:
+       minutes  += 1
+       seconds = 0 
+    if minutes == 60:
+        seconds += 60
+        minutes = 1
+    if hours == 60:
+        minutes += 60
+        hours = 1
+    if days == 24:
+        hours += 24
+        days = 1
+    if weeks == 7:
+        days += 7
+        weeks = 1
+
