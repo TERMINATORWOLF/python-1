@@ -7,11 +7,45 @@ import time
 
 c.clear_screen()
 
-for badger in range(12):
-    time.sleep(1)
-    print(c.red + 'Badgers!!!!!' + c.reset) 
+count_length = 0.387
 
-for badger in range(2):   
-    time.sleep(1)
-    print(c.magenta + 'mushroom' + c.reset)
+snake = '''
 
+
+
+███████╗███╗   ██╗ █████╗ ██╗  ██╗███████╗
+██╔════╝████╗  ██║██╔══██╗██║ ██╔╝██╔════╝
+███████╗██╔██╗ ██║███████║█████╔╝ █████╗  
+╚════██║██║╚██╗██║██╔══██║██╔═██╗ ██╔══╝  
+███████║██║ ╚████║██║  ██║██║  ██╗███████╗
+╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+                                         
+
+                                                     
+'''
+
+
+for verse in range(5):
+
+    for badger in range(12):
+        print(c.red + 'Badgers!!!!!' + c.reset) 
+        time.sleep(0.387)
+
+    for badger in range(2):   
+       print(c.magenta + 'mushroom')
+       time.sleep(count_length)
+       
+    if verse < 4:
+        for mushroom in range(2)
+            print(c.magenta + 'mushroom.' + c.reset)
+            time.sleep(count_length)
+
+   else: 
+        print(c.green + snake)      
+        print(c.red + 'oh its a snake')
+        time.sleep(count_length * 11)
+
+    c.clear_screen()
+  
+    
+                                                            
