@@ -2,9 +2,16 @@
 
 import colors as c
 
+import time
+
+
 c.clear_screen()
 
-print(c.red + 'Badgers!!!!!')
+for badger in range(12):
+    time.sleep(1)
+    print(c.red + 'Badgers!!!!!' + c.reset) 
 
-
+for badger in range(2):   
+    time.sleep(1)
+    print(c.magenta + 'mushroom' + c.reset)
 
