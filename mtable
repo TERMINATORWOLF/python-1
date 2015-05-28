@@ -14,7 +14,7 @@ print('''
 '''
 )
 
-number = input('enter number table below,') 
+number = input('enter number table --') 
 
 print(c.magenta + 'please wait')
 
