@@ -28,7 +28,7 @@ print('''...
 print(c.red + 'found it')
 print(c.yellow + ' ')
 
-for M in range(1,13,2):
+for M in range(1,13):
     product = int(number) * M
     form = '{} x {} = {}'
     print(form.format(number,M,product))
