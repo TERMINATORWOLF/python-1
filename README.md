@@ -1,2 +1,2 @@
-# python-1
-python-1
+# python-0
+my awesome first program

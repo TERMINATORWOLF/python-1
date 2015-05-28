@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+cyan = '\033[0;36m'
+yellow = '\033[0;33m' 
+
+print(cyan + 'welcome' + yellow + 'user')
+
+
+

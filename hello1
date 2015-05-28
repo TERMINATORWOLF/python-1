@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+magenta ='\033[0;35m'
+
+blue ='\033[0;34m'
+
+base3 ='\033[1;37m'
+
+print(magenta + "Hello" + blue + "NYAN" + base3 +  "CAT")
+
+

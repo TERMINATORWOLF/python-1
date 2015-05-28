@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+
+print(c.base2 + "hi can you please type in Nyan in the bar below")
+print(c.reset)
+
+name = input('> ')
+
+print(c.cyan +"thank you, please read what is coming up and when you are done please press enter")
+
+print(c.clear +"read below")
+
+print(c.red +"hi, who are you")
+name = input(c.yellow + "I'm a user")
+print(c.green + "Then what do you wish to do?")
+name = input(c.cyan + "say " + c.magenta + "NYAN" + c.cyan + " very fast over and over!!!")
+print(c.magenta + 'nyanynaynannynyannyannynanyanyanyannyanyanyanyanynnyannyannyanyannyanyanyanyannyannyannyanaynyanynayanyanaynaynyannyanyanayanyanaynananyayanaynayayanyannyannyannyannyannyannyannyanynnyanynyannyanaynyannyanayanynannyannyannyannyannyannyannyannyanyannyannyannaynnyannyannaynynaynyannyanyanynyannyannyannyanyanyanyanyanyanyanynyannyaynanyanyaynyanyananyanyanyannyanyanyaynaynyannyanyanyanyannyannyannyannyannyannynyannyannynyannyannyannyanynyannyannyanyanyanyanyanyan')
+
+print(c.base3 + "CAT")
+
+print(c.blue + "please press enter")
+
