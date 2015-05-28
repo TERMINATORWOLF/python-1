@@ -36,7 +36,7 @@ for verse in range(5):
        time.sleep(count_length)
        
     if verse < 4:
-        for mushroom in range(2)
+        for mushroom in range(2):
             print(c.magenta + 'mushroom.' + c.reset)
             time.sleep(count_length)
 
