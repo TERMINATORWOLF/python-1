@@ -44,7 +44,7 @@ answers = [
 while True:
     question = input('--> ' + c.yellow)
     if question == 'bye':
-        print('Goodbye')
+        print('see you later user')
         exit()
     answer = random.choice(answers)
     print(c.random_color() + answer + c.reset)

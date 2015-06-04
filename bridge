@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+
+print(c.cyan + '''
+
+
+The user who wants to go
+and cross the grid cavern of 
+no return must awenser these
+three quetions 
+
+good luck >:->
+
+
+'''
+)
+
+
+
+name = input(c.red + '''
+
+what is your name brave user?
+'''
+)
+print(c.magenta)
+
+question1 = input(c.yellow + '''
+what is your quest user?
+'''
+)
+print(c.magenta)
+
+if name in ['lancelot', "galahad"]:
+    question2 = input(c.green + '''
+    what is you faverout colour
+    '''
+    )
+    print(c.magenta)
+
+
+
