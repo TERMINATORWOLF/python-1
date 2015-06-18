@@ -45,7 +45,7 @@ elif name == 'robin':
     if capital in ['assur','ashur','nimrud','qalat sherqat','calah']:
         print(c.magenta + "All right a smart user of you go")
     else:
-        print(c.red + "you doof its assur off you go into the cavern lets hope your dreezed before you hit the bottem.....")
+        print(c.red + "you doof its ASSUR, off you go into the cavern lets hope your dreezed before you hit the bottem.....")
 
 
         
