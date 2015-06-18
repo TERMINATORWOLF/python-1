@@ -2,6 +2,14 @@
 
 import colors as c
 
+def ask(question):
+    print(c.red + question + c.reset)
+    answer = input("> " + c.base3).lower().strip()
+    print(c.reset)
+    return answer
+
+
+
 
 print(c.cyan + '''
 
@@ -18,26 +26,28 @@ good luck >:->
 )
 
 
+name = ask(c.cyan + "what is your name brave user? ")
+quest = ask(c.red + "what is your quest user? ")
 
-name = input(c.red + '''
-
-what is your name brave user?
-'''
-)
-print(c.magenta)
-
-question1 = input(c.yellow + '''
-what is your quest user?
-'''
-)
-print(c.magenta)
 
 if name in ['lancelot', "galahad"]:
-    question2 = input(c.green + '''
-    what is you faverout colour
+    question2 = input(c.blue + '''
+    what is ur faveriot colur
     '''
     )
-    print(c.magenta)
+    if colour == 'blue':
+        print("Right, ummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm off you go")
+    else:
+        print("Thou art cast into the very very very deep cavern of the grid......    bye")
+
+elif name == 'robin':
+    capital = ask(c.red + "what is the captial of assyria")
+    if capital in ['assur','ashur','nimrud','qalat sherqat','calah']:
+        print(c.magenta + "All right a smart user of you go")
+    else:
+        print(c.red + "you doof its assur off you go into the cavern lets hope your dreezed before you hit the bottem.....")
 
 
+        
+    
 
