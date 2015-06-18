@@ -47,7 +47,19 @@ elif name == 'robin':
     else:
         print(c.red + "you doof its ASSUR, off you go into the cavern lets hope your dreezed before you hit the bottem.....")
 
+elif name == 'arthur':
+    bird = ask(c.yellow + "what is the airspeed of a unladen swallow? ")
+    if bird in ['24','which one a aferican or euripean bird?']:
+        print(c.cyan + '''
 
-        
-    
+    bridge keeper: what i don't know that!!!
+
+    (bridge keeper falls into cavern)
+
+    arthur: well he's not smart
+    '''
+    )
+       
+    else:
+        print(c.red + "good user i  hope you have a lovey derezed")
 
