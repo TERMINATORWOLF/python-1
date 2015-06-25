@@ -61,5 +61,5 @@ elif name == 'arthur':
     )
        
     else:
-        print(c.red + "good user i  hope you have a lovey derezed")
+        print(c.red + "user...   i  hope you have a slow plainful dereez")
 
