@@ -12,27 +12,28 @@ lets test your knowlage >:-)
 )
 
 def q1():
-    answer = ask(c.blue + 'what color are the unicorns?')
-    if awswer == "pink":
+    answer1 = ask(c.blue + 'what color are the unicorns?')
+    if answer1 == "pink":
         print("which one do you like better magenta or pink?... i like magenta")
         return True
     print("that is incorrect >:-(")
     return False
 
 def q2():
-    answer2 = ask(c.magneta + 'where are they dancing?')
-    if answer2 == "rainbows"
+    answer2 = ask(c.magenta + 'where are they dancing?')
+    if answer2 == "rainbows":
         print("how do they stand on rainbows!?!?!?!?!?!")
         return True
     print("that is incorrect >:-(")
     return False
+
 def q3():
     answer3 = ask(c.blue + 'name one word to describe the texture of how they feel?')
-    if awswer3 == "fluffy"
+    if answer3 == "fluffy":
         print("OMG it's so fluffy i'm gonna crash!!! ... or not :-]")
         return True
     print("that is incorrect >:-(")
-
+    return False
 
 
 #-----------------
