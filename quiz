@@ -2,9 +2,44 @@
 
 import colors as c
 
+from utils import ask
+
 print(c.clear + c.magenta +'''
 
 welcome to the quiz for pink fluffy unicorns.
 lets test your knowlage >:-) 
 '''
 )
+
+def q1():
+    answer = ask(c.blue + 'what color are the unicorns?')
+    if awswer == "pink":
+        print("which one do you like better magenta or pink?... i like magenta")
+        return True
+    print("that is incorrect >:-(")
+    return False
+
+def q2():
+    answer2 = ask(c.magneta + 'where are they dancing?')
+    if answer2 == "rainbows"
+        print("how do they stand on rainbows!?!?!?!?!?!")
+        return True
+    print("that is incorrect >:-(")
+    return False
+def q3():
+    answer3 = ask(c.blue + 'name one word to describe the texture of how they feel?')
+    if awswer3 == "fluffy"
+        print("OMG it's so fluffy i'm gonna crash!!! ... or not :-]")
+        return True
+    print("that is incorrect >:-(")
+
+
+
+#-----------------
+
+q1()
+q2()
+q3()
+
+
+
