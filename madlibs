@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.red + 'currently under work')
+
+text = '''Deadly physics
+
+so one {Time} i walked in to a secret base and started skynet. 
+then i {action} and skynet {action2} then it shut off
+but the {weapon} went off and i did tecno waffle during {world attack}.
+
+the end (^.^) 
+
+'''
+
+line = text.splitlines()
+title = line[0]
+text = '\n'.join(lines[1:])
+
+word = {
+
+    "Time" : None,
+    "action" : None,
+    "action2" : None,
+    "weapon" : None,
+}
+
+
+
+
+for key in words:
+    words[key] = c.cyan + ask(key.rstrip('0123456789') + ': ') 
+
+print(c.clear + c.base3 + title + c.reset)
+printCtext.format(**words))

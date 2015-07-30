@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import colors
+
+sides = []
+
+sides.append('''
+
+
+
+
+
+
+
