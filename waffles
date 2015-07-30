@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print('hi' + c.clear)
+
+print(c.orange + 'do you like pancakes')
+ 
+question1 = input(c.yellow)
+
+if question1 == 'no':
+    print(c.red + 'well you stink?')
+    exit()
+
+if question1 == 'yes':
+    print(c.clear)
+
+print(c.yellow + 'do you like waffles?')
+
+question2 = input(c.orange)
+
+if question2 == 'no':
+    print(c.red + 'well you STINK')
+    exit()
+
+if question2 == 'yes':
+    print(c.clear)
+
+print(c.orange + 'do you like french toast?')
+
+question3 =input(c.yellow)
+
+if question3 == 'no':
+    print(c.red + 'i wont invite you for breakfest')
+    exit()
+
+if question3 == 'yes':
+    print(c.magenta + 'would you like to come for breakfest?')
+
+
