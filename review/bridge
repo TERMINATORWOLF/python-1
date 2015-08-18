@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.clear)
+
+print(c.cyan + '''Who dares cross the bridge of death
+and suffering. But be aware of your choice or you may
+suffer the fate of the nightgarud from FNAF
+''')
+
+name = input(c.red + 'what is your name-->  ')
+
+if name == 'Lancelot':
+    print(c.clear)
+    quest1 = input(c.yellow + 'what is ur quest?')
+    if quest1 == 'to find the holy grail':
+        print(c.clear)
+    else:
+        exit()
+    color1 = input(c.green + 'what is ur faverout color?')
+    if color1 == 'blue':
+        print(c.clear)
+        print(c.cyan + 'okay go ahead')
+
+if name == 'robin':
+    print(c.clear)
+    quest2 = input(c.yellow + 'what is ur quest?')
+    if quest2 == 'to find the holy grail':
+        print(c.clear)
+    else:
+        exit()
+    print(c.clear)
+    location1 = input(c.green + '''
+what is the capatle of Asyria?
+''')
+    if location == 'assyra':
+        print(c.red + 'YOU SHALL DIE!!!')
+    else:
+        print(c.red + 'YOU SHALL DIE!!!')

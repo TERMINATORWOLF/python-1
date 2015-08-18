@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+
+import colors as c
+import random
+print(c.clear)
+
+
+print(c.cyan + 'welcome to magic8ball!')
+print(c.yellow + 'please say your question and type shake')
+shake = input(c.magenta + '----->   ')
+
+if shake == 'leave':
+    exit()
+
+print(c.clear) 
+
+print(c.cyan)
+
+sides = []
+
+sides.append('''
+yes
+''')
+
+sides.append('''
+no
+''')
+
+sides.append('''
+most likely
+''')
+
+sides.append('''
+shadow bonnie is behind you
+''')
+
+sides.append('''
+i have to go ask me later
+''')
+
+print(random.choice(sides))

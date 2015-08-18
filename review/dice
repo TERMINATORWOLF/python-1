@@ -14,6 +14,8 @@ if start == 'yes':
 elif start == 'no':
     exit()
 
+print(c.base3)
+
 sides = []
 
 
