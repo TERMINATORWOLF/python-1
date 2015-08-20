@@ -13,28 +13,60 @@ name = input(c.red + 'what is your name-->  ')
 
 if name == 'Lancelot':
     print(c.clear)
-    quest1 = input(c.yellow + 'what is ur quest?')
-    if quest1 == 'to find the holy grail':
+    quest1 = input(c.yellow + 'what is ur quest?  ')
+    if quest1 == 'to seek the holy grail':
         print(c.clear)
     else:
+        print(c.red + 'you shall die')
         exit()
-    color1 = input(c.green + 'what is ur faverout color?')
+    color1 = input(c.green + 'what is ur faverout color? ')
     if color1 == 'blue':
         print(c.clear)
         print(c.cyan + 'okay go ahead')
+    else:
+        print(c.red + 'you shall die!!!')
 
 if name == 'robin':
     print(c.clear)
-    quest2 = input(c.yellow + 'what is ur quest?')
-    if quest2 == 'to find the holy grail':
+    quest2 = input(c.yellow + 'what is ur quest?  ')
+    if quest2 == 'to seek the holy grail':
         print(c.clear)
     else:
+        print(c.red + 'you shall die  ')
         exit()
-    print(c.clear)
     location1 = input(c.green + '''
 what is the capatle of Asyria?
 ''')
-    if location == 'assyra':
-        print(c.red + 'YOU SHALL DIE!!!')
+    if location1 == 'Assyra':
+        print(c.red + 'YOU SHALL DIE!!! Because i said so!')
     else:
         print(c.red + 'YOU SHALL DIE!!!')
+
+if name == 'galahad':
+    print(c.clear)
+    quest3 = input(c.yellow + 'what is ur quest?   ')
+    if quest3 == 'to seek the holy grail':
+        print(c.clear)
+    else:
+        print(c.red + 'you shall die')
+        exit()
+    color2 = input(c.yellow + 'what is ur faverout color    ')
+    if color2 ==' i dont know!'
+        print(c.red + 'you shall die!!!')
+    else:
+        print(c.red + 'you shall die!! Because i said so!!!')
+        
+if name == 'Authur':
+    print(c.clear)
+    quest4 = input(c.yellow + 'what is ur quest?')
+    if quest4 == 'to seek the holy grail':
+        print(c.clear)
+    else:
+        print(c.red + 'you shall die!!!')
+        exit()
+    bird1 = input(c.green + 'what is the air-speed volocity of a swallow?')
+    if bird1 == 'what kind african or euipean swallow?':
+        print(c.cyan + 'right off you go')
+    else:
+        print(c.red + 'you shall die!!!')
+
